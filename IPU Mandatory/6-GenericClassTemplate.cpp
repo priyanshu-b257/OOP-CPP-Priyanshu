@@ -18,7 +18,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     Pair<int> p(10, 20);
     cout << p.larger() << "\n";
 
